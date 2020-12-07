@@ -4,11 +4,7 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-						<Input
-						value = "{/recipient/name}"
-						description = "Hello {/recipient/name}"
-						valueLiveUpdate = "true"
-						width = "60%"/>
+						<Input value="{/recipient/name}" description="Hello {/recipient/name}" valueLiveUpdate="true" width="60%"/>
 					</content>
 				</Page>
 			</pages>
